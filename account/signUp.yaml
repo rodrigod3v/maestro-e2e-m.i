@@ -1,0 +1,71 @@
+appId: com.mundoinvestapp.app
+---
+- tapOn:
+      id: create-account-button
+- tapOn:
+      id: next-step-button
+- tapOn:
+      id: next-step-button
+- tapOn:
+      id: next-step-button
+- tapOn:
+      id: full-name-input
+- inputText: Rodrigo D3v Test
+- tapOn:
+      id: email-input
+- inputText: rodrigod3vtest1@gmail.com
+- tapOn:
+      id: password-input
+- inputText: "123@tesTT"
+- doubleTapOn:
+      id: checkbox-terms
+      delay: 100
+- tapOn:
+      id: next-step-button
+- tapOn:
+      id: celular-input
+- inputText: "63979646513"
+- tapOn:
+      id: next-step-button
+#Fluxo Ignorar Codigo
+- repeat:
+      times: 2
+      commands:
+          - tapOn:
+                id: request-code-again-button
+          # Espera até que o texto "Solicitar código novamente" esteja visível.
+          # O timeout é definido como 65000ms (65 segundos) para cobrir a espera de 60s.
+          - extendedWaitUntil:
+                visible: "Solicitar código novamente"
+                timeout: 65000
+          - tapOn: "Solicitar código novamente"
+# Aguarda até 65 segundos para que o texto fique visível
+- extendedWaitUntil:
+      visible: "Validar telefone depois"
+      timeout: 65000
+# Se ficar visível, ele clica imediatamente
+- tapOn: "Validar telefone depois"
+
+# Fluxo CNPJ
+- tapOn:
+      id: option-already-invest-no
+- tapOn:
+      id: option-already-invest-yes
+- tapOn:
+      id: input-monthly-income
+- tapOn:
+      id: option-income-0
+- tapOn:
+      id: input-next-goal
+- tapOn:
+      id: Controlar meus gastos e saúde financeira
+- tapOn:
+      id: Outros objetivos
+- tapOn:
+      id: Aprender a investir
+- back
+- tapOn:
+      id: input-cpf
+- inputText: "28763455013"
+- doubleTapOn:
+      id: button-submit-new-data

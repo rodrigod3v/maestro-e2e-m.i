@@ -1,0 +1,84 @@
+appId: com.mundoinvestapp.app
+---
+##FLUXO PERFIL DO MENU
+- tapOn: Início
+- tapOn: Bem-vindo(a)
+
+- tapOn:
+    id: input-name
+- eraseText
+- inputText: Rodrigo D3v
+
+- tapOn:
+    id: input-age
+- eraseText
+- inputText: "33"
+
+- tapOn:
+    id: input-dependents
+- eraseText
+- inputText: "2"
+- doubleTapOn: Salvar
+
+- tapOn: Meu Perfil
+
+##FLUXO PERFIL OBJ
+- tapOn: Objetivos
+- tapOn:
+    id: card-currentAge
+- tapOn:
+    id: input-current-age
+- eraseText
+- inputText: "33"
+- doubleTapOn:
+    id: button-save
+    delay: 100
+
+## Aposentar com:
+- tapOn:
+    id: card-ageToRetire
+- tapOn:
+    id: input-retirement-age
+- eraseText
+- inputText: "40"
+- doubleTapOn:
+    id: button-save
+    delay: 100
+
+##Perfil Investidor
+- tapOn:
+    id: card-investorProfile
+- tapOn: Conservador
+- doubleTapOn:
+    id: button-save
+    delay: 100
+
+##Aporte Mensal
+- tapOn:
+    id: card-investPerMonth
+- tapOn:
+    id: input-monthly-contribution
+- eraseText
+- inputText: "400000"
+- doubleTapOn:
+    id: button-save
+    delay: 100
+
+##Aporte maximo
+- tapOn:
+    id: card-maxMonthlyAports
+- tapOn:
+    id: input-max-monthly-contribution
+- eraseText
+- inputText: "500000"
+- doubleTapOn:
+    id: button-save
+    delay: 100
+
+##Renda objetivada
+- tapOn:
+    id: card-incomeType
+- tapOn: Gastar tudo
+- doubleTapOn:
+    id: button-save
+    delay: 100

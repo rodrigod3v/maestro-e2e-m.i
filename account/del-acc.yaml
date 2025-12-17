@@ -1,0 +1,15 @@
+appId: com.mundoinvestapp.app
+---
+- tapOn: Início
+- tapOn: 
+- tapOn: Configurações
+- scrollUntilVisible:
+    element:
+      text: Encerrar conta
+- assertVisible: Encerrar conta
+- tapOn: Encerrar conta
+- tapOn:
+    id: input-delete-account-email
+- inputText: rodrigod3vtest1@gmail.com
+- tapOn:
+    id: button-confirm-delete-account
