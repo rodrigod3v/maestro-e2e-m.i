@@ -1,0 +1,13 @@
+appId: com.mundo.invest
+---
+- tapOn: Objetivos
+
+- scrollUntilVisible:
+    element:
+      text: Guardado
+- tapOn: Guardado
+- scrollUntilVisible:
+    element:
+      text: Remover objetivo
+- tapOn: Remover objetivo
+- tapOn: Deletar

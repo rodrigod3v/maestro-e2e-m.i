@@ -1,0 +1,44 @@
+appId: com.mundo.invest
+---
+- tapOn:
+    id: edit-bond-button
+- tapOn:
+    id: product-dropdown
+- tapOn: CDB
+- tapOn:
+    id: corporation-name-input
+- inputText: NuCranck
+- tapOn:
+    id: initial-value-input
+- inputText: "100000"
+- hideKeyboard
+- tapOn:
+    id: remuneration-type-dropdown
+- tapOn: Pós-fixado
+- tapOn:
+    id: benchmark-dropdown
+- tapOn: Selic
+- tapOn: DD/MM/AAAA
+- inputText: "11112025"
+- hideKeyboard
+- tapOn:
+    id: expiration-date-input
+- inputText: "11112026"
+- hideKeyboard
+- tapOn:
+    id: gross-value-input
+- inputText: "100000"
+- hideKeyboard
+- scrollUntilVisible:
+    element:
+      id: net-value-input
+    direction: DOWN
+    timeout: 50000
+    speed: 40
+    visibilityPercentage: 100
+    centerElement: false
+- tapOn:
+    id: net-value-input
+- inputText: "100000"
+- hideKeyboard
+- tapOn: Salvar ativo

@@ -1,0 +1,16 @@
+appId: com.mundo.invest
+---
+- tapOn:
+    id: add-patrimony-button
+- tapOn:
+    id: input-objective-name
+- inputText: Casa do Lago
+- tapOn:
+    id: input-acquisition-date
+- inputText: "112025"
+- tapOn:
+    id: input-objective-value
+- inputText: "10000000"
+- tapOn:
+    id: objective-image-retirement
+- tapOn: Salvar

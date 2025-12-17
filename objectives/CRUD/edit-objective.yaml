@@ -1,0 +1,41 @@
+appId: com.mundo.invest
+---
+- scrollUntilVisible:
+    element:
+      text: Guardado
+- tapOn: Guardado
+- tapOn:
+    id: input-objective-name
+- eraseText: 3
+- inputRandomText:
+    length: 3
+
+- tapOn:
+    id: input-acquisition-date
+- eraseText: 6
+- inputText: "072025"
+
+- tapOn:
+    id: input-objective-value
+- eraseText: 5
+- inputRandomNumber:
+    length: 5
+
+- tapOn:
+    id: input-saved-value
+- eraseText: 6
+- inputRandomNumber:
+    length: 6
+
+- tapOn:
+    id: input-monthly-investment
+- eraseText: 5
+- inputRandomNumber:
+    length: 5
+
+- tapOn: Imagem seleção objetivos retirement
+
+- scrollUntilVisible:
+    element:
+      text: Salvar
+- tapOn: Salvar

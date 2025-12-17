@@ -1,0 +1,14 @@
+appId: com.mundoinvestapp.app
+---
+- assertVisible: "Acessar"
+- tapOn: "Acessar"
+- assertVisible: "Informe seu e-mail de cadastro e senha"
+- tapOn:
+    id: "email-input"
+- inputText: "chiconunes3081@gmail.com"
+- tapOn:
+    id: "password-input"
+- inputText: "test123"
+- tapOn:
+    id: "login-button"
+- assertVisible: "Bem-vindo(a)"

@@ -1,0 +1,51 @@
+appId: com.mundo.invest
+---
+- tapOn: Objetivos
+
+- tapOn:
+        id: card-currentAge
+- tapOn:
+        id: input-current-age
+- eraseText: 4
+- inputRandomNumber:
+        length: 3
+- scrollUntilVisible:
+        element:
+              text: Salvar
+- tapOn: Salvar
+
+- tapOn:
+        id: card-ageToRetire
+- tapOn:
+        id: input-retirement-age
+- eraseText: 4
+- inputRandomNumber:
+        length: 3
+- scrollUntilVisible:
+        element:
+              text: Salvar
+- tapOn: Salvar
+
+- tapOn:
+        id: card-investPerMonth
+- tapOn:
+        id: input-monthly-contribution
+- eraseText: 8
+- inputRandomNumber:
+        length: 6
+- scrollUntilVisible:
+        element:
+              text: Salvar
+- tapOn: Salvar
+
+- tapOn:
+        id: card-maxMonthlyAports
+- tapOn:
+        id: input-max-monthly-contribution
+- eraseText: 8
+- inputRandomNumber:
+        length: 6
+- scrollUntilVisible:
+        element:
+              text: Salvar
+- tapOn: Salvar

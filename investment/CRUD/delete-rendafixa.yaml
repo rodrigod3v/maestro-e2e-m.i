@@ -1,0 +1,6 @@
+appId: com.mundo.invest
+---
+- tapOn: CDB - UNDEFINED
+- tapOn:
+    id: delete-bond-button
+- tapOn: Excluir

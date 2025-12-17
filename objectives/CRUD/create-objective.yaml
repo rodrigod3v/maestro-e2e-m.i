@@ -1,0 +1,35 @@
+appId: com.mundo.invest
+---
+- tapOn:
+        id: button-register-new-objective
+
+- tapOn:
+        id: input-objective-name
+- inputRandomText:
+        length: 3
+
+- tapOn:
+        id: input-acquisition-date
+- inputText: "072027"
+
+- tapOn:
+        id: input-objective-value
+- inputRandomNumber:
+        length: 5
+
+- tapOn:
+        id: input-saved-value
+- inputRandomNumber:
+        length: 6
+
+- tapOn:
+        id: input-monthly-investment
+- inputRandomNumber:
+        length: 5
+
+- tapOn: Imagem seleção objetivos retirement
+
+- scrollUntilVisible:
+        element:
+              text: Salvar
+- tapOn: Salvar

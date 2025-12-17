@@ -1,0 +1,8 @@
+appId: com.mundo.invest
+---
+- tapOn:
+    id: patrimony-card-8ee356b0-26c9-4fb8-acf2-49a62bd90865
+- tapOn:
+    id: remove-patrimony-button
+- tapOn:
+    id: confirm-delete-patrimony-button

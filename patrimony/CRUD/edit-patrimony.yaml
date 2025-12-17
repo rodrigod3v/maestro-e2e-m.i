@@ -1,0 +1,16 @@
+appId: com.mundo.invest
+---
+- tapOn:
+    id: patrimony-card-73a1feaa-1a88-4a1b-b308-46c93b3f899a
+- tapOn:
+    id: input-acquisition-date
+- inputText: "082025"
+- tapOn:
+    id: input-objective-value
+- inputText: "1000000"
+
+- tapOn:
+    id: objective-image-property
+- scrollUntilVisible:
+    element:
+      text: Salvar
