@@ -1,0 +1,12 @@
+appId: com.mundoinvestapp.app
+---
+- tapOn: "Meus Investimentos"
+- tapOn: "Renda Variável"
+- tapOn: "Ver dividendos"
+- runScript:
+    file: calculate_total.js
+    env:
+      ticker: "PETR4"
+- echo: "Total para ${output.ticker}: ${output.totalDividends}"
+- assertVisible:
+    id: "dividend-card-ticker"
